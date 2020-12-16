@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-learner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "postcss src/css/tailwind.css -o static/css/tailwind.css",
+    "watch": "watch 'npm run build:css' ./static",
+    "serve": "npm run build:css && live-server static",
+    "start": "npm run watch & npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

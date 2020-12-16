@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Define styles for base HTML elements here
+
+@layer base {
+  h1 {
+    @apply text-8xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
