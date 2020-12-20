@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-// Define styles for base HTML elements here
+/* Apply these to the body tag as well as `grid` and `h-screen` and use just a <header>, <main>, and <footer> block within the top level of thebody tag for a nice footer that stays at the bottom even with little content */
 
-@layer base {
-  h1 {
-    @apply text-8xl;
-  }
-  h2 {
-    @apply text-xl;
-  }
+/* .grid-cols-full {
+  grid-template-columns: 100%;
 }
+.grid-rows-auto-1-auto {
+  grid-template-rows: auto 1fr auto;
+} */
